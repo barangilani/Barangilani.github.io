@@ -13,6 +13,30 @@
                 a {
                 color: #222222;
                     }
+
+                    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(189, 121, 33, 0.855);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(80, 28, 8);
+}
         </style>
     </head>      
     <body>
@@ -20,14 +44,16 @@
            <h1 style="text-align:center;">Wellcom To My First Homepage </h1>
             <nav>
                 <ul>
-                    <li><a href="#index.html">Home</a></li>
-                    <li><a href="#blog.html">Blog</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#Nature">Nature</a></li>
+                    <li><a href="#Tourist">Tourist</a></li> 
+                    <li><a href="#contact">Contact</a></li>
+                    <li style="float:right"><a href="#about">About</a></li>
                 </ul>
             </nav>
         </header>
 
-        <aside>
+        <aside>  
            
             <header>
                 <h2>My Palce In The World</h2>
@@ -41,10 +67,11 @@
         <main>
                     <article>
                         
-                        <h3><a href="post1.html">I will tells about a city in southern Kurdistan (southeastern Iran).It is called Urmiye.
-                        </a></h3>
+                        <h3><a href="post1.html">I will tells about a city in southern Kurdistan (southeastern Iran).It is called Urmiye. </a></h3>
+                       
                     </header>
-                    <div>
+                    <div> 
+                        <h3><a id="Nature" href="Nature<">Nature </a></h3>
                         <p>
                             Urmiye have very nice nature with hight mountains and largest saltwater.Urmiye is on the border north of Turkey and in the south in Irak.
                             Urmiye is the 10th most population city in Iran.
@@ -56,9 +83,11 @@
                             </figure>
                             An important town by the 9th century, the city has had a diverse population which has at times included Muslims (Shias and Sunnis), Christians (Catholics, Protestants, Nestorians, and Orthodox), Jews, Bahá'ís and Sufis. Around 1900, Christians made up more than 40% of the city's population; however, most of the Christians fled in 1918 as a result of the Persian Campaign during World War I and the Armenian and Assyrian Genocides by Ottoman Empire.
                         </p>
-                    </div
-                     <h3><a href="post2.html">I want to show you the tourist attractions of Urmiye.
-                        </a></h3>
+                    </div>
+                    <h3><a id="Tourist" href="Tourist">Tourist</a></h3>
+                    
+                     <h4><a href="post2.html">I want to show you the tourist attractions of Urmiye.
+                        </a></h4>
                     </header>
                     <div>
                         <p>
@@ -76,8 +105,7 @@
                             </figure>
                         </p>
                     </div>
-                    <h3><a id="about" href="post3.html">About me
-                    </a></h3>
+                    <h3><a id="about" href="About">About </a></h3>
                 </header>
                 <div>
                     <p>
@@ -95,15 +123,11 @@
         <section>
             <div>
                 <h4>Browse</h4>
-                <ul>
+                <ol>
                     <p>for more photo Click <a href="https://www.nationalgeographic.com/photography/proof/2018/04/lake-urmia-iran-drought/">here.</a></p>
-                    <li><a href="#"> About me</a>
-                    </li>
-                    <li><a href="#">Urmiye nature </a>
-                    </li>
-                </ul>
-           
-            <h4>sociala kontakter</h4>
+                
+                   </ol>
+            <h4>contact</h4>
             
             </div>
         
@@ -127,7 +151,20 @@
         </fieldset>
     
           </form>
-
+            <html>
+                <body>
+                    <nav>
+                         <ul>
+                             
+                               <li><a class="active" href="#home">Home</a></li>
+                               <li><a href="#Nturist">Nature</a></li>
+                               <li><a href="#Tourist">Tourist</a></li> 
+                               <li><a href="#contact">Contact</a></li>
+                               <li style="float:right"><a href="#about">About</a></li>
+                            </ul>
+                     </nav>
+                 </body>
+            </html>
         <section>
       
                 <footer>
@@ -137,7 +174,6 @@
                     </address>
                 </footer>
             </div>
-       
             </section>
    </body>
    
