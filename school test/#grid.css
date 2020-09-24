@@ -1,0 +1,37 @@
+#container {
+    width:960px;
+    height:500px;
+    border:1px solid #333;
+    margin:20px auto;
+
+}
+body{
+    background:url(../img/12-col.gif) center repeat-y;
+}
+.col-1{
+    widows: 60px;
+    border:1px solid#333;
+    margin-left: 10px;
+    box-sizing:borde ;
+}
+.col-2{
+    widows: 140px;
+    border:1px solid#333;
+    margin-left: 10px;
+    box-sizing:borde ;
+}
+
+
+.col-3{
+    widows: 220px;
+    border:1px solid#333;
+    margin-left: 10px;
+    box-sizing:borde ;
+}
+
+.col-4{
+    widows: 60px;
+    border:1px solid#333;
+    margin-left: 10px;
+    box-sizing:borde ;
+}
