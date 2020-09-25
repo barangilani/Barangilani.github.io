@@ -1,0 +1,94 @@
+body{
+    background-color: lightgray;
+}
+
+.container{
+    margin: 10px;
+    padding: 10px;
+    border-color: black;
+    border-style: ridge;
+    border-radius: 10px;
+    background-color: lightsteelblue;
+    text-align: left;
+    align-content: center;
+}
+.headerStyle{
+    margin: 10px;
+    padding: 10px;
+    border-color: black;
+    border-style: ridge;
+    border-radius: 10px;
+    background-color: lightsteelblue;
+    text-align: center;
+    align-content: center;
+}
+.navStyle{
+    border: 1px;
+    border-radius: 10px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #81aa82;;
+}
+
+.active {
+    background-color: #81aa82;
+    color: white;
+  }
+.asideStyle{
+    float: right;
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    border-color: black;
+    border-style: ridge;
+    border-radius: 10px;
+}
+.sectionStyle{
+    width: 72%;
+    margin: 20px;
+    margin: 20px;
+    padding: 5px;
+    border-color: black;
+    border-style: ridge;
+    border-radius: 10px;
+}
+.footerStyle{
+    margin: 10px;
+    padding: 10px;
+    border-color: black;
+    border-style: ridge;
+    border-radius: 10px;
+}
+.articleStyle{
+    background-color: rgb(226, 226, 226);
+    border-color: black;
+    border-style: ridge;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}  
+ 
